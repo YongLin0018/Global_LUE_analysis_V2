@@ -7,7 +7,7 @@ This repository contains core datasets and code scripts for ecosystem Light Use 
 
 3.LMMs.py: Python script for Linear Mixed-Effects Models calculation, it quantifies the effects of drivers on LUE. 
 
-4.Mapping-LUE_RF.py: Python script for Random Forest modeling and LUE global upscaling, it first trains an RF model with site-scale data then conducts Leave-One-Out Cross-Validation to test model generalization ability, and further upscales the optimized model to global gridded datasets to generate global LUE maps. 
+4.Mapping-LUE_RF.py: Python script for Random Forest modeling and LUE global upscaling, it first trains an RF model with site-scale data then conducts Buffered Leave-One-Out Cross-Validation (B-LOO CV) to test model generalization ability, and further upscales the optimized model to global gridded datasets to generate global LUE maps. 
 
 Author: Yong Lin
 
